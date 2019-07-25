@@ -18,9 +18,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-# 循环跑5次
+# 循环跑10次
 i = 0
-while i < 5:
+while i < 10:
 
     driver = webdriver.Chrome()
     driver.maximize_window()

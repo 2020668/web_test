@@ -14,12 +14,14 @@ E-mail:keen2020@outlook.com
 
 # from selenium import webdriver
 # 轴定位,轴运算
+
 # ancestor:祖先结点，包括父
 # parent:父结点
 # preceding:当前元素结点标签之前的所有结点  （html页面先后顺序)
 # preceding-sibling:当前元素结点标签之前的所有兄弟结点
 # following:当前元素结点标签之后的所有结点   (html页面先后顺序)
 # following-sibling:当前元素结点标签之后的左右兄弟结点
+
 # 语法 /轴名称::结点名称[@属性=值]
 # css 语法 id:#id  class:.class 子孙:>
 # 元素操作
@@ -28,7 +30,9 @@ E-mail:keen2020@outlook.com
 # 隐性等待
 # driver.get('https://www.baidu.com')
 # driver.find_element_by_xpath("//div[@id='u1']//a[@name='tj_login']").click()   # 找到百度首页的登录按钮，然后点击
+
 # 显性等待
+
 # 每隔一个时间段轮询一次，当满足条件时，执行下一步，否则继续等待，直到超时抛出异常
 # WebDriverWait 类：显性等待类
 # WebDriverWait(driver,等待时长,轮询周期).until()/until_not()
@@ -43,6 +47,8 @@ E-mail:keen2020@outlook.com
 # js 操作 修改元素的属性
 # 上传操作
 # TANGRAM__PSP_10__footerULoginBtn
+
+
 import time
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
