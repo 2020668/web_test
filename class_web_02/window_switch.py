@@ -12,12 +12,12 @@ E-mail:keen2020@outlook.com
 
 """
 
-import time
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
+# window_switch
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get('https://www.baidu.com')     # get操作会自动等待，无需再次等待

@@ -12,21 +12,24 @@ E-mail:keen2020@outlook.com
 
 """
 
-# 元素具有4中操作，click send_keys text get_attribute\
-# from selenium import webdriver
-#
-# driver = webdriver.Chrome()
-# driver.find_element_by_id('kw').send_keys('淘宝')
-# driver.find_element_by_id('su').click()
-# text = driver.find_element_by_id('su').text
-# driver.find_element_by_id('su').get_attribute('class')
+"""
+元素具有4中操作，click send_keys text get_attribute\
+from selenium import webdriver
 
-# 鼠标操作，由selenium的ActionChains类来完成模拟鼠标操作
-# 存储鼠标操作，=perform()来执行鼠标操作
-# 支持 双击 double_click
-# 右键操作 context_click
-# 拖拽 drag_and_drop
-# 鼠标悬停 move_to_element()
+driver = webdriver.Chrome()
+driver.find_element_by_id('kw').send_keys('淘宝')
+driver.find_element_by_id('su').click()
+text = driver.find_element_by_id('su').text
+driver.find_element_by_id('su').get_attribute('class')
+
+鼠标操作，由selenium的ActionChains类来完成模拟鼠标操作
+存储鼠标操作，=perform()来执行鼠标操作
+支持 双击 double_click
+右键操作 context_click
+拖拽 drag_and_drop
+鼠标悬停 move_to_element()
+
+"""
 
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver

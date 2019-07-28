@@ -16,7 +16,6 @@ import time
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 
 # 全新的html页面，内嵌html
 # 首先判断要操作的元素是否在iframe内

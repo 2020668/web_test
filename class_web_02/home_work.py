@@ -89,5 +89,3 @@ loc = By.XPATH, '//a[text()=" 跳过 "]'
 WebDriverWait(driver, 20).until(EC.visibility_of_element_located(loc))
 driver.find_element(*loc).click()
 driver.find_element_by_xpath('//a[text()="下次再选"]').click()
-
-
