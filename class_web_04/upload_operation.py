@@ -13,12 +13,10 @@ E-mail:keen2020@outlook.com
 """
 
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
 import time
-import datetime
 import win32gui
 import win32con
 
