@@ -19,7 +19,7 @@ from selenium.webdriver.common.by import By
 import datetime
 import time
 
-# 查询明天的北京到上海的火车票（学生票）
+# 查询明天的北京到上海的火车票（学生票）,自动跑5次
 i = 0
 while i < 5:
     driver = webdriver.Chrome()

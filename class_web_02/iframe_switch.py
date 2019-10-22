@@ -14,7 +14,7 @@ E-mail:keen2020@outlook.com
 
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
 
 # 全新的html页面，内嵌html
@@ -31,8 +31,7 @@ driver = webdriver.Chrome()
 # driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
 
 # 方式二,等待，切换，一步到位
-WebDriverWait(driver, 20).until(
-EC.frame_to_be_available_and_switch_to_it((By.TAG_NAME, "iframe")))
+WebDriverWait(driver, 20).until(ec.frame_to_be_available_and_switch_to_it((By.TAG_NAME, "iframe")))
 
 # 切换之后，主html变成了切换之后的html页面
 
